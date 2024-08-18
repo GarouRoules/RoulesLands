@@ -22,7 +22,7 @@ def game():
         else:
             print(f"Parábens! Você tentou {attempts} vezes!")
             break
-
+#GameRestart
     gameloud = input("Deseja jogar novamente?(s/n): ").lower()
     if gameloud == 's':
             game()
